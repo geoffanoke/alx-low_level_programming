@@ -6,9 +6,8 @@ s: starting address of memory to be filled
  n: number of bytes to be changed 
 returns: changed array with new value for n bytes */
 
-int i = 0; 
 
- for ( ; n > 0; n--)
+ for (int i = 0; n > 0; n--)
 { 
 s[i] = b; 
 n--; 
